@@ -9,22 +9,22 @@ public class Circle extends Shape {
 
     @Override
     public void draw() {
-        System.out.println("Drawing Circle with radius: " + radius);
+        System.out.println("Drawing the Circle with radius: " + radius);
     }
 
     @Override
     public void erase() {
-        System.out.println("Erasing circle");
+        System.out.println("Erasing the circle for making the changes");
     }
 
     @Override
     public void move() {
-        System.out.println("Moving  Circle");
+        System.out.println("Moving the Circle");
     }
 
     @Override
     public void resize() {
-        System.out.println("Resizing  Circle");
+        System.out.println("Resizing the Circle");
     }
 
     public double area() {
